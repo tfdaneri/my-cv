@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family:'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+}
+body{
+    background-color: beige ;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 20px;
+}
+
+.texto-azul{
+    color:blue
+}
+
+.centrado{
+    text-align: center;
+}
+.nombre{
+    font-size: 40px;
+}
+.apellido{
+    font-size: 60px;
+}
+
+.fondo-azul{
+    color: white;
+    background-color: rgb(26, 76, 169);
+    padding: 4px;
+    border: 1px solid rgb(26, 76, 169);
+    width:fit-content;
+    height:fit-content;
+    text-align: center;
+}
+
+.box{
+    width: 35%;
+    height: 900px;
+    background-color: darkgrey;
+    float: left;
+}
+.cuerpo{
+    margin: 10px;
+    float: left;
+}
