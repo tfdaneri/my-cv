@@ -2,49 +2,85 @@
     margin: 0;
     font-family:'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
 }
-body{
-    background-color: beige ;
+
+.cajatotal{
+    position:relative;
+    width: 100%;
 }
 
 h1{
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 h2{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .texto-azul{
-    color:rgb(26, 76, 169)
+    color:rgb(13, 46, 107)
 }
 
-.centrado{
-    text-align: center;
-}
 .nombre{
-    font-size: 40px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .apellido{
-    font-size: 60px;
+    font-size: 50px;
+    text-align: center;
 }
 
 .fondo-azul{
     color: white;
-    background-color: rgb(26, 76, 169);
-    padding: 4px;
-    border: 10px solid rgb(26, 76, 169);
+    background-color: rgb(13, 46, 107);
+    padding: 0px;
+    border: 8px solid rgb(13, 46, 107);
     width:fit-content;
     height:fit-content;
     text-align: center;
     border-radius: 20px;
+    text-transform: uppercase;
 }
 
-.box{
+.caja_izq{
+    color: white;
     width: 35%;
     height: 900px;
-    background-color: darkgrey;
+    background-color: rgb(13, 46, 107) ;
     float: left;
 }
-.cuerpo{
-    margin-left: 10px;
+
+.centrado{
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.caja_der{
+    width: 65%;
+    margin-left: 0px;
     float: left;
+    background-color: beige;
+    height: 900px;
+}
+
+.logos{
+    padding-top: 0px;
+    position: relative;
+    line-height: 25px;
+}
+.logos ul li{
+    list-style: none;
+    position: relative;
+}
+.logos ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+
+.cuerpo{
+    align-items: center;
+    position: relative;
+    margin-left: 10px;
+    line-height: 1.5em;
 }
