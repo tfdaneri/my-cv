@@ -44,7 +44,7 @@ h2{
 .caja_izq{
     color: white;
     width: 35%;
-    height: 900px;
+    height: 1200px;
     background-color: rgb(13, 46, 107) ;
     float: left;
 }
@@ -60,7 +60,7 @@ h2{
     margin-left: 0px;
     float: left;
     background-color: beige;
-    height: 900px;
+    height: 1200px;
 }
 
 .logos{
