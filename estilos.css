@@ -2,34 +2,86 @@
     margin: 0;
     font-family:'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
 }
-
+.contenedor{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+}
+.columna{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.fila{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    gap: 25px;
+}
+.centrado{
+    justify-content: center;
+}
+.fondoazul{
+    background-color: rgb(13, 46, 107);
+    color: white;
+}
+span{
+    background-color: rgb(13, 46, 107);
+    color: white; 
+}
+i{
+    background-color: rgb(13, 46, 107);
+    color: white; 
+}
+a{
+    background-color: rgb(13, 46, 107);
+    color: white; 
+}
 .cajatotal{
-    position:relative;
+    background: beige;
     width: 100%;
+    max-width: 1000px;
+    height: 1000px;
+    margin: 10px;
+}
+.cajaizq{
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+.imagen{
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 10%;
+}
+.Contacto{
+    flex-direction: column;
+    height: fit-content;
 }
 
-h1{
-    margin-bottom: 0px;
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-h2{
-    margin-top: 0px;
-}
-
-.texto-azul{
-    color:rgb(13, 46, 107)
-}
-
 .nombre{
+    display: flex;
+    justify-content: center;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 18px;
 }
 .apellido{
+    display: flex;
+    justify-content: center;
     font-size: 50px;
     text-align: center;
 }
-
-.fondo-azul{
+.tituloazul{
+    display: flex;
     color: white;
     background-color: rgb(13, 46, 107);
     padding: 0px;
@@ -39,48 +91,5 @@ h2{
     text-align: center;
     border-radius: 20px;
     text-transform: uppercase;
-}
-
-.caja_izq{
-    color: white;
-    width: 35%;
-    height: 1200px;
-    background-color: rgb(13, 46, 107) ;
-    float: left;
-}
-
-.centrado{
-    margin: 10px;
-    position: relative;
-    text-align: center;
-}
-
-.caja_der{
-    width: 65%;
-    margin-left: 0px;
-    float: left;
-    background-color: beige;
-    height: 1200px;
-}
-
-.logos{
-    padding-top: 0px;
-    position: relative;
-    line-height: 25px;
-}
-.logos ul li{
-    list-style: none;
-    position: relative;
-}
-.logos ul li .icon{
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-}
-
-.cuerpo{
-    align-items: center;
-    position: relative;
     margin-left: 10px;
-    line-height: 1.5em;
 }
