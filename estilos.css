@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-size: 17px;
     font-family:'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
 }
 .contenedor{
@@ -117,4 +118,38 @@ ul {
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 22px;
+}
+.subtitulo1{
+    font-size: 30px;
+}
+.subtitulo2{
+    font-size: 25px;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+.experiencia .año_puesto{
+    width: 200px;
+}
+.experiencia .año_puesto h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 550;
+}
+.experiencia .textocargos p{
+    width: 400px;
+}
+.experiencia .textocargos h4{
+    text-transform: uppercase;
+    color: rgb(13, 46, 107)
+}
+
+.textopersonal{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
 }
