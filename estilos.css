@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-size: 17px;
+    font-family:'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+}
+.contenedor{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 10px;
+}
+.columna{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.fila{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    gap: 25px;
+}
+.centrado{
+    justify-content: center;
+}
+.fondoazul{
+    background-color: rgb(13, 46, 107);
+    color: white;
+}
+span{
+    background-color: rgb(13, 46, 107);
+    color: white; 
+}
+i{
+    background-color: rgb(13, 46, 107);
+    color: white; 
+}
+a{
+    background-color: rgb(13, 46, 107);
+    color: white; 
+}
+ul {
+    list-style-type: none;
+}
+.cajatotal{
+    background: beige;
+    width: 100%;
+    max-width: 1000px;
+    height: 1000px;
+    margin: 10px;
+}
+.cajaizq{
+    flex-direction: column;
+    width: 28%;
+    height: 100%;
+}
+.imagen{
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 10%;
+}
+.Contacto{
+    flex-direction: column;
+    height: fit-content;
+}
+
+.barra{
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 10px;
+    background-color: rgb(8, 23, 51);
+}
+.barra div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: white;
+}
+
+.alineado{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 18px;
+    color: rgb(13, 46, 107);
+}
+.apellido{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+.tituloazul{
+    display: flex;
+    color: white;
+    background-color: rgb(13, 46, 107);
+    padding: 0px;
+    border: 8px solid rgb(13, 46, 107);
+    width:fit-content;
+    height:fit-content;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.subtitulo1{
+    font-size: 30px;
+}
+.subtitulo2{
+    font-size: 25px;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+.experiencia .año_puesto{
+    width: 200px;
+}
+.experiencia .año_puesto h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 550;
+}
+.experiencia .textocargos p{
+    width: 400px;
+}
+.experiencia .textocargos h4{
+    text-transform: uppercase;
+    color: rgb(13, 46, 107)
+}
+
+.textopersonal{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
